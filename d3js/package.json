@@ -5,5 +5,23 @@
   "main": "server.js",
   "author": {
     "name": "Pavel"
+  },
+  "dependencies": {
+    "d3": "^4.10.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "json-loader": "^0.5.7",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.8.2"
+  },
+
+  "scripts": {
+    "start": "webpack-dev-server --inline"
   }
 }
